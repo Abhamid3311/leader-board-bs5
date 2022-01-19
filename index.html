@@ -9,8 +9,8 @@
     <title>LeaderBoard By Bootstrap</title>
 </head>
 <body style="background-color: #F3F1FF ;">
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #562EFF;">
+    <header id="home" >
+        <nav class="navbar navbar-expand-lg navbar-dark  " style="background-color: #562EFF;">
             <div class="container">
                
                 <a class="navbar-brand d-flex  align-items-center" href="#">
@@ -24,16 +24,16 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0  align-items-center">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#course">Courses</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Works</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="#blog">
                         <img src="images/icons/profile.png" width="51" height="51" >
                     </a>
                   </li>
@@ -46,7 +46,7 @@
 
                                 <!-- Top Players and Top Blogs  -->
 
-    <Section class="container rounded  mt-3 pt-3" style="background-color:  #FFFFFF;">
+    <Section class="container rounded  mt-3 pt-3" id="blog" style="background-color:  #FFFFFF;">
         <h3 class="text-primary" >Top Players</h3>
 
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1  g-2">
@@ -119,7 +119,7 @@
 
                                         <!-- Latest Courses -->
 
-    <Section class="container  mt-3 pt-3 rounded" style="background-color:  #FFFFFF;">
+    <Section class="container  mt-3 pt-3 rounded" id="course" style="background-color:  #FFFFFF;">
         <h3 class="text-primary mb-3" >Latest Courses</h3>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 pb-4 mt-sm-3">
@@ -197,7 +197,7 @@
 
                                 <!-- Our Course Featured -->
 
-    <section class="container-fluid mt-5">
+    <section class="container-fluid mt-5" >
         <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -231,9 +231,9 @@
                      <!-- Footer -->
 
 
-      <footer class="container-fluid text-light py-5 text-center mt-5 bg-dark">
+      <footer class="container-fluid text-light py-5 text-center mt-5 bg-dark" id="contact">
         <h3>Keep Upgrade Yourself With Our Exclusive Courses </h3>
-        <p>Hard Work,Perseverance And  Aspiration can Make A Man Successful</p>
+        <p>Hard Work, Perseverance And  Aspiration can Make A Man Successful</p>
         <div class=" fs-8 ">
             <i class="bi bi-facebook me-3"></i>
             <i class="bi bi-instagram me-3"></i>
@@ -242,6 +242,7 @@
             <i class="bi bi-linkedin me-3"></i>
           </div>
       </footer> 
+      <p class="text-center" >Copyright &copy; 2022 | All right reserved | Created by Ab Hamid </p>
       
       
                     <!-- Bootstrap Script CDN -->
